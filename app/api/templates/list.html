@@ -1,0 +1,19 @@
+{% block content %}
+<div class="card-columns">
+    {% for users in users %}
+    <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ users.id }}</h5>
+    <p class="card-text">{{ users.username }}</p>
+   <div class="card-footer bg-transparent border-dark">
+   <p class="card-title">{{users.first_name}}</p>
+   <p class="card-title">{{users.last_name}}</p>
+   <p class="card-title">{{users.email}}</p>
+    </div>
+  </div>
+</div>
+    {% endfor %}
+</div>
+{% endblock %}
+</body>
+</html>

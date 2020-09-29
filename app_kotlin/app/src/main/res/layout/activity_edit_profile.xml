@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.ufp.pam.examples.oleazinho.project.GUI.EditProfileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDFCFC"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+
+            <TextView
+                android:id="@+id/ProfileTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Edit Profile"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/EditFirstNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="First Name"
+                android:textAlignment="viewStart"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditFirstNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#101111"
+                android:text=""
+                android:textColorHint="#52afaa"
+                android:backgroundTint="#009688"/>
+
+            <TextView
+                android:id="@+id/EditLastNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Last Name"
+                android:textAlignment="viewStart"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditLastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#101111"
+                android:text=""
+                android:textColorHint="#52afaa"
+                android:backgroundTint="#009688"/>
+
+            <TextView
+                android:id="@+id/EditEmailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Email"
+                android:textAlignment="viewStart"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditEmailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#101111"
+                android:text=""
+                android:textColorHint="#52afaa"
+                android:backgroundTint="#009688"/>
+
+            <TextView
+                android:id="@+id/EditAddressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Address"
+                android:textAlignment="viewStart"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditAddressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#101111"
+                android:text=""
+                android:textColorHint="#52afaa"
+                android:backgroundTint="#009688"/>
+
+            <TextView
+                android:id="@+id/EditUsernameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="User Name"
+                android:textAlignment="viewStart"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditUsernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#101111"
+                android:text=""
+                android:textColorHint="#52afaa"
+                android:backgroundTint="#009688"/>
+
+            <Button
+                android:id="@+id/PasswordEditButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009688"
+                android:text="Change Password"
+                android:textAllCaps="false"
+                android:textColor="#F2F7F6"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="25dp">
+
+                <Button
+                    android:id="@+id/SaveProfileButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#009688"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="#F2F7F6"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

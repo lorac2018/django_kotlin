@@ -1,0 +1,32 @@
+Build an image from a Dockerfile
+PS C:\Users\lorac\Desktop\Uni\Mestrado\1Semestre\AM\Oleaozinho (vue-django-docker)> docker build .
+PS C:\Users\lorac\Desktop\Uni\Mestrado\1Semestre\AM\Oleaozinho (vue-django-docker)> docker-compose build
+PS C:\Users\lorac\Desktop\Uni\Mestrado\1Semestre\AM\Oleaozinho (vue-django-docker)> docker-compose run app sh -c "django-admin.py startproject application ." 
+PS C:\Users\lorac\Desktop\Uni\Mestrado\1Semestre\AM\Oleaozinho (vue-django-docker)> git add .
+PS C:\Users\lorac\Desktop\Uni\Mestrado\1Semestre\AM\Oleaozinho (vue-django-docker)> git commit -a
+
+
+
+docker-compose run app python manage.py migrate
+git push -u origin master
+
+#Web Token - JWT
+Aceder ao url : / (introduzindo a password e o url)
+depois quando for efectuar um pedido (no parametro de autorização, colocar o bearer token como opção e conceder a chave
+fornecido pelo link do token)
+
+#https://github.com/davesque/django-rest-framework-simplejwt
+#https://github.com/encode/django-rest-framework/blob/master/docs/tutorial/4-authentication-and-permissions.md
+#http://self-issued.info/docs/draft-ietf-oauth-v2-bearer.html
+
+
+#git
+
+git init 
+git config --global user.email "33348@ufp.edu.pt"
+git config --global user.name "lorac2018"
+git commit -m " "
+git remote add https://github.com/lorac2018/oleaozinho-vue-django-docker
+git 
+
+git push -f origin master

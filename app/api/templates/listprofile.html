@@ -1,0 +1,18 @@
+{% block content %}
+<div class="card-columns">
+    {% for profile in users %}
+    <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ profile.id }}</h5>
+    <p class="card-text">{{ profile.user.username }}</p>
+   <div class="card-footer bg-transparent border-dark">
+   <p class="card-title">{{profile.address}}</p>
+   <p class="card-title">{{profile.points}}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
+</body>
+</html>

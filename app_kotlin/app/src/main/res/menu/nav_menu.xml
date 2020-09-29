@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="Profile"
+            android:icon="@drawable/ic_action_perfil"
+            />
+        <item
+            android:id="@+id/nav_oleoes"
+            android:icon="@drawable/ic_action_oleoes"
+            android:title="Oleoes"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Sign Out"/>
+    </group>
+
+
+    <!--<item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_exit"
+                android:title="Sign Out"/>
+        </menu>
+    </item>-->
+</menu>
